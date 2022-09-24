@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+body{
+	font-family: "Lato", sans-serif;
+	width: 810px;
+	margin: 152px 0px 0px 345px;
+	background-color: #e5e5e5;
+}
+.title{
+	font-weight: 900;
+	font-size: 46px;
+	margin: 0px 0px 92px 0px;
+}	
+img{
+	width: 100%;
+	border-radius: 4px;
+	margin: 0px 0px 60px 0px;
+}
+.textstart{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	color: #1E212C;
+	margin: 0px 0px 24px 0px;
+}
+.textmidl{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	margin: 0px 0px 48px 0px;
+}
+.texthug{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	color: #1E212C;
+	padding-left: 58px;
+	margin: 0px 0px 48px 0px;
+}
+.contenttext{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	margin: 0px 0px 24px 0px;
+}
+li{
+	margin: 0px 0px 4px 32px;
+	color: #424551;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+}
+.textul{
+	margin-bottom: 24px;
+}
+.contendend{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	margin-bottom: 60px;
+}
+.textexper{
+	font-weight: 900;
+	font-size: 40px;
+	text-align: center;
+	text-shadow: 5px 5px 20px black;
+	margin:0px 0px 20px 0px;
+}
+.loremblock{
+	height: 300px;
+	padding-top: 25px;
+	border-top: 5px dashed green;
+	border-left: 5px dotted green;
+	border-bottom: 5px solid green;
+	border-right: 5px double green;
+	margin-bottom: 50px;
+}
+.lorem1,
+.lorem2,
+.lorem3{
+	display: inline-block;
+	width: 200px;
+	height: 250px;
+	padding: 10px;
+	background-color: grey;
+	margin-left: 50px;
+	box-shadow: 10px 10px 10px grey;
+}
+.lorem1{
+	border: 5px solid red;
+	border-radius: 20px;
+}
+.lorem2{
+	border: 10px dotted green;
+	border-radius: 30% 70% 42% 58% / 42% 22% 78% 58%;
+	overflow: hidden;
+}
+.lorem3{
+	border: 5px double yellow;
+	border-radius: 20px 40px;
+}
+.loremblock{
+	margin-bottom: 30px;
+}
+.opacity{
+	height: 100px;
+	overflow: scroll;
+	opacity: 0.5;
+	margin-bottom: 50px;
+}
+.button{
+	display: inline-block;
+	background-color: #396478;
+	padding: 50px;
+	color: #fff;
+	border-radius: 50px;
+	box-shadow: 0 5px 0 #000;
+	transition: all 0.3s ease 0s;
+	margin-bottom: 50px;
+}
+.button:hover{
+	margin-top: 3px;
+	box-shadow: 0 2px 0 #000;
